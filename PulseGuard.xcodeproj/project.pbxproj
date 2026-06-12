@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6E309B0E2FDC9FFD00D8AE6C /* HeartRateEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E309B0D2FDC9FFD00D8AE6C /* HeartRateEngine.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6E309AFF2FDC99CB00D8AE6C /* PulseGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E309B0D2FDC9FFD00D8AE6C /* HeartRateEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		6E309AF62FDC99CB00D8AE6C = {
 			isa = PBXGroup;
 			children = (
+				6E309B0D2FDC9FFD00D8AE6C /* HeartRateEngine.swift */,
 				6E309B012FDC99CB00D8AE6C /* PulseGuard */,
 				6E309B002FDC99CB00D8AE6C /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E309B0E2FDC9FFD00D8AE6C /* HeartRateEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +258,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF3S2Z56L7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the rear camera and flash to measure your heart rate through your finger.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,8 +291,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF3S2Z56L7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the rear camera and flash to measure your heart rate through your finger.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
